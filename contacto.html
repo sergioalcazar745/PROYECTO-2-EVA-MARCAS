@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>CES FUENCARRAL</title>
+    <link rel="stylesheet" type="text/css" href="style-contacto.css">
+    <link rel="icon" type="image/icon-x" href="img/icon.png">
+</head>
+
+<body>
+    <header id="header">
+        <img src="img/logo.jpg">
+        <h1>CES FUENCARRAL</h1>
+        <p>Compartir</p><img id="share" src="img/share.png"/>
+        <div id="compartir">
+            <a href="https://www.facebook.com/CES-Fuencarral-287495468039021/" target="_blank" title=""><img src="img/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+            <a href="https://twitter.com/Ces_fuencarral" target="_blank" title=""><img src="img/twitter.png" alt="twitter"></a>
+            <a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
+            <a href="https://www.youtube.com/channel/UCpCk_1VlaUk3Fp1ZOJ6Sv8A" target="_blank" title=""><img src="img/youtube.png" alt="youtube"></a>
+            <a href="#"><img src="img/google-plus.png" alt="google-plus"></a>
+        </div>
+        <img class="madrid" src="img/madrid.png" alt="comunidad de madrid">
+    </header>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="#">GRADO MEDIO ⇓</a>
+                <ul id="submenu">
+                    <li><a href="#">SISTEMAS MICROINFORMATICOS Y REDES</a></li>
+                    <li><a href="#">ATENCION A PERSONAS EN SITUACION DE DEPENDENCIA</a></li>
+                    <li><a href="#">CUIADADOS AUXILIARES DE ENFERMERÍA</a></li>
+                </ul>
+            </li>
+            <li><a href="#">GRADO SUPERIOR ⇓</a>
+                <ul id="submenu1">
+                    <li><a href="#">DESARROLLO DE APLICACIONES MULTIPLATAFORMA</a></li>
+                    <li><a href="#">INTEGRACIÓN SOCIAL</a></li>
+                    <li><a href="#">EDUCACION INFANTIL</a></li>
+                </ul>
+            </li>
+            <li><a href="becas.html">BECAS 2019/2020</a></li>
+            <li><a href="#">CONOCENOS ⇓</a>
+                <ul id="submenu2">
+                    <li><a href="#">INSTALACIONES</a></li>
+                    <li><a href="#">EMPRESAS COLABORADORAS</a></li>
+                </ul>
+            </li>
+            <li class="lista"><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <div id="caja-contacto">
+        <header id="header2">
+            <h2>Contacto</h2>
+        </header>
+        <section id="seccion">
+            <img src="img/ces.png"/>
+            <div>
+                <p class="parrafo">
+                    <img src="img/ubicacion.png" class="imagen"/>    Labastida, 13.28034-Madrid<br><br>
+                    <img src="img/phone.png" class="imagen">  917 292 862<br><br>
+                    <img src="img/postal.png" class="imagen">   <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" class="enlace" target="_blank">info@cesfuencarral.com</a><br><br>
+                    <img src="img/global.png" class="imagen"/>  <a href="https://campusvirtual.cesfuencarral.com/" target="_blank" class="enlace" target="_blank">https://campusvirtual.cesfuencarral.com/</a><br><br>
+                    <span class="etiqueta">Codigo de Centro:</span> 28074220<br><br>
+                    <span class="etiqueta">Horario Secretaría:</span> Lunes a Viernes 9:30 a 14:00<br><br>
+                </p>
+                <p class="parrafo1">
+                    <img src="img/metro.png" class="imagen1"/>      <span>Metro Begoña y Fuencarral</span><br><br>
+                    <img src="img/subway.png" class="imagen1"/> <span>Fuencarral Cercanías Ramón y Cajal</span><br><br>
+                    <img src="img/bus.png" class="imagen1"/> <span>Líneas 66, 124, 137 y SE704</span><br>
+                </p>
+            </div>
+        </section>
+        <hr>
+        <iframe  id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.323168929182!2d-3.6893247846018297!3d40.49023627935665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229614ffc43cb%3A0xbe666f85fd8027f7!2sCentro%20de%20Estudios%20Superiores%20Fuencarral!5e0!3m2!1ses!2ses!4v1581290474553!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <hr class="hr">
+    </div>
+</body>
+<footer id="pie">
+    Desarrollado por Sergio y Álvaro &copy; CES FUENCARRAL<br>
+    <a href="aviso_legal.html">Aviso legal</a>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("menu");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+</footer>
+</html>

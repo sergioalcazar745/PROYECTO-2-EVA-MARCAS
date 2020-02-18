@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>CES FUENCARRAL</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/icon-x" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <noscript>
+        Tiene JavaScript desahabilitado
+    </noscript>
+    <header id="header">
+        <img src="img/logo.jpg"/>
+        <h1>CES FUENCARRAL</h1>
+        <p>Compartir</p><img id="share" src="img/share.png"/>
+        <div id="compartir">
+            <a href="https://www.facebook.com/CES-Fuencarral-287495468039021/" target="_blank" title=""><img src="img/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+            <a href="https://twitter.com/Ces_fuencarral" target="_blank" title=""><img src="img/twitter.png" alt="twitter"></a>
+            <a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
+            <a href="https://www.youtube.com/channel/UCpCk_1VlaUk3Fp1ZOJ6Sv8A" target="_blank" title=""><img src="img/youtube.png" alt="youtube"></a>
+            <a href="#"><img src="img/google-plus.png" alt="google-plus"></a>
+        </div>
+        <img class="madrid" src="img/madrid.png" alt="comunidad de madrid">
+    </header>
+    
+    <nav id="menu">
+        <ul>
+            <li class="lista"><a href="index.html">INICIO</a></li>
+            <li><a href="#">GRADO MEDIO ⇓</a>
+                <ul id="submenu">
+                    <a href="#"><li>SISTEMAS MICROINFORMATICOS Y REDES</a></li>
+                    <li><a href="#">ATENCION A PERSONAS EN SITUACION DE DEPENDENCIA</a></li>
+                    <li><a href="#">CUIADADOS AUXILIARES DE ENFERMERÍA</a></li>
+                </ul>
+            </li>
+            <li><a href="#">GRADO SUPERIOR ⇓</a>
+                <ul id="submenu1">
+                    <li><a href="#">DESARROLLO DE APLICACIONES MULTIPLATAFORMA</a></li>
+                    <li><a href="#">INTEGRACIÓN SOCIAL</a></li>
+                    <li><a href="#">EDUCACION INFANTIL</a></li>
+                </ul>
+            </li>
+            <li><a href="becas.html">BECAS 2019/2020</a></li>
+            <li><a href="#">CONOCENOS ⇓</a>
+                <ul id="submenu2">
+                    <li><a href="#">INSTALACIONES</a></li>
+                    <li><a href="#">EMPRESAS COLABORADORAS</a></li>
+                </ul>
+            </li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <div id="caja1">
+        <h1>¿Quienes somos?</h1>
+        <p>En nuestro centro ofrecemos una atención personalizada a cada alumno/a. Para nosotros lo más importante eres
+            tú.</p>
+    </div>
+    <div id="caja2">
+        <h1>Nuestros precios</h1>
+        <p>Pincha aquí para conocer los precios de los Ciclos Formativos de Grado Superior.</p>
+    </div>
+    <div id="caja3">
+        <h1>Seminarios Complementarios</h1>
+        <p>Para completar la formación de nuestro alumnado, contamos con seminarios formativos que se imparten en todos los cursos</p>
+    </div>
+</body>
+<footer id="pie">
+    Desarrollado por Sergio y Álvaro &copy; CES FUENCARRAL<br>
+    <a href="aviso_legal.html">Aviso legal</a>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("menu");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+</footer>
+</html>

@@ -1,0 +1,16 @@
+<footer id="pie">
+        <p>Desarrollado por Sergio y Álvaro &copy; 2020 CES FUENCARRAL <a>Aviso legal</a></p>
+</footer>
+
+______________________________________________________________________________________________________________
+
+#pie{
+    background-color:black;
+    height: 100px;
+    text-align: center;
+}
+
+#pie p{
+    color: white;
+    padding-top: 2.2%;
+}

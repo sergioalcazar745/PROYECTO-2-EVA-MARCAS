@@ -203,7 +203,6 @@ body{
     padding: 0px;
     margin: 5px;
 }
-
 #header #compartir{
     position: absolute;
     right: 4%;
@@ -219,34 +218,32 @@ body{
 
 #caja1{
     position: absolute;
-    bottom: 210px;
+    top: 810px;
     left: 10px;
     width: 450px;
     height: 100px;
     padding: 20px;
     border: 1px solid black;
+    
 }
-
 #caja2{
     position: absolute;
-    bottom: 210px;
+    top: 810px;
     left: 510px;
     width: 450px;
     height: 100px;
     padding: 20px;
     border: 1px solid black;
 }
-
 #caja3{
     position: absolute;
-    bottom: 210px;
+    top: 810px;
     left: 1010px;
     width: 455px;
     height: 100px;
     padding: 20px;
     border: 1px solid black;
 }
-
 #pie{
     background: linear-gradient(to right, rgb(71, 120, 255), rgb(255, 199, 96));
     text-align: center;

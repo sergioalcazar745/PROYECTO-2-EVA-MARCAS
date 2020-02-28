@@ -4,8 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>CES FUENCARRAL</title>
-    <link rel="stylesheet" type="text/css" href="css/style-aviso.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/galeria.css">
     <link rel="icon" type="image/icon-x" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -29,7 +31,7 @@
     
     <nav id="menu">
         <ul>
-            <li><a href="index.html">INICIO</a></li>
+            <li class="lista"><a href="index.html">INICIO</a></li>
             <li><a href="#">GRADO MEDIO ⇓</a>
                 <ul id="submenu">
                     <a href="#"><li>SISTEMAS MICROINFORMATICOS Y REDES</a></li>
@@ -47,31 +49,21 @@
             <li><a href="becas.html">BECAS 2019/2020</a></li>
             <li><a href="#">CONOCENOS ⇓</a>
                 <ul id="submenu2">
-                    <li><a href="#">INSTALACIONES</a></li>
+                    <li><a href="instalaciones.html">INSTALACIONES</a></li>
                     <li><a href="#">EMPRESAS COLABORADORAS</a></li>
                 </ul>
             </li>
             <li><a href="contacto.html">CONTACTO</a></li>
         </ul>
     </nav>
+ <h1 style="position: absolute; top: 100px;">Nuestras instalaciones</h1>
+   
+
+
 </body>
 <footer id="pie">
     Desarrollado por Sergio y Álvaro &copy; CES FUENCARRAL<br>
     <a href="aviso_legal.html">Aviso legal</a>
-
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var header = document.getElementById("menu");
-        var sticky = header.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-        </script>
+    <script src="js/onscroll.js"></script>
 </footer>
 </html>

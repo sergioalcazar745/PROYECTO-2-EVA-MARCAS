@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>CES FUENCARRAL</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/galeria.css">
     <link rel="icon" type="image/icon-x" href="img/icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -48,13 +49,49 @@
             <li><a href="becas.html">BECAS 2019/2020</a></li>
             <li><a href="#">CONOCENOS ⇓</a>
                 <ul id="submenu2">
-                    <li><a href="#">INSTALACIONES</a></li>
+                    <li><a href="instalaciones.html">INSTALACIONES</a></li>
                     <li><a href="#">EMPRESAS COLABORADORAS</a></li>
                 </ul>
             </li>
             <li><a href="contacto.html">CONTACTO</a></li>
         </ul>
     </nav>
+    <!-- He creado una galeria -->
+    <div id="main">
+
+        <div class="slideShow dispel">
+          <img class="photo" src="img/galeria/atencionDependencia.png">
+          <div class="advertising" alt="ad"><h2 class="enunciated"><a class="linkShow" href="#">Atencion Dependencia</a></h2></div>
+        </div>
+        
+        <div class="slideShow dispel">
+          <img class="photo" src="img/galeria/educacionInfantil.png">
+          <div class="advertising" alt="ei"><h2 class="enunciated"><a class="linkShow" href="#">Educacion Infantil</a></h2></div>
+        </div>
+    
+        <div class="slideShow dispel">
+            <img class="photo" src="img/galeria/integraSocial.png">
+            <div class="advertising" alt="is"><h2 class="enunciated"><a class="linkShow" href="#" >Integra Social</a></h2></div>
+        </div>
+        
+        <div class="slideShow dispel">
+          <img class="photo" src="img/galeria/smr.png">
+          <div class="advertising" alt="smr"><h2 class="enunciated"><a class="linkShow" href="#" >Sistemas Microinformática y redes</a></h2></div>
+        </div>
+    
+        <div class="slideShow dispel">
+            <img class="photo" src="img/galeria/dam.png">
+            <div class="advertising" alt="dam"><h2 class="enunciated"><a class="linkShow" href="#">Desarrollo de Aplicaciones de Multiplataformas</a></h2></div>
+        </div>
+    
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+    </div>
+        <!--Este es el fichero de javaScript que he dejado de esta forma, si vas a colocar arriba como ocurre algo similar que css, no funcionará-->
+        <script src="js/slideShow.js"></script>
+    <br>
 
     <div id="caja1">
         <h1>¿Quienes somos?</h1>
@@ -69,6 +106,7 @@
         <h1>Seminarios Complementarios</h1>
         <p>Para completar la formación de nuestro alumnado, contamos con seminarios formativos que se imparten en todos los cursos</p>
     </div>
+   
 </body>
 <footer id="pie">
     Desarrollado por Sergio y Álvaro &copy; CES FUENCARRAL<br>

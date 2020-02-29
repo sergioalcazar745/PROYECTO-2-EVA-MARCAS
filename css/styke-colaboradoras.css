@@ -1,0 +1,270 @@
+h1#title{
+    position: absolute;
+    top: 400px;
+    margin-left: 300px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color:royalblue;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: gray 10px 10px;
+}
+p#present{
+    position: absolute;
+    top: 500px;
+    white-space: pre-wrap;
+    border-bottom: double;
+    border-color: honeydew;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* Cajas de presentacion */
+#films{
+    margin-left: 10%;
+    display: flex;
+}
+/* Presentacion de empresas colaboradoras para smr */
+h2#smr-title{
+    font-size: 20px;
+    font-family:Impact;
+    display: flex;
+    justify-content: center;
+}
+#smr {
+    position: absolute;
+	width: 40%;
+	margin: auto;
+    overflow: hidden;
+    top: 800px;
+}
+
+#smr ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+    animation: changeDam 10s infinite alternate-reverse;
+}
+
+#smr li {
+	width: 100%;
+	list-style: none;
+}
+
+#smr img {
+	width: 100%;
+}
+@keyframes changeSmr {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+}
+
+/* Presentacion de empresas colaboradoras para dam */
+h2#dam-title{
+    font-size: 20px;
+    font-family:Impact;
+    display: flex;
+    justify-content: center;
+}
+#dam {
+    position: absolute;
+	width: 40%;
+	margin: auto;
+    overflow: hidden;
+    top: 800px;
+    margin-left: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+#dam ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+    animation: changeDam 10s infinite alternate-reverse;
+    /* infinite alternate linear */
+}
+
+#dam li {
+	width: 100%;
+    list-style: none;
+    top:50px
+}
+
+#dam img {
+	width: 40%;
+}
+img.atos{
+    margin-left: 10%;
+
+}
+img.fidelis{
+    margin-left: -45%;
+}
+img.factorLibre{
+   margin-left: -60%;
+}
+ img.nova{
+
+    margin-left: -550px;
+}
+
+img.full{
+    margin-left: -600px;
+} 
+
+@keyframes changeDam {
+	0% {margin-left: 0;}
+	5% {margin-left: 0;}
+	
+	10% {margin-left: -100%;}
+	15% {margin-left: -100%;}
+	
+	20% {margin-left: -200%;}
+	25% {margin-left: -200%;}
+	 
+}
+
+/* TÉCNICO EN ATENCIÓN A PERSONAS EN SITUACIÓN DE DEPENDENCIA */
+
+h2#ttpd-title{
+    font-size: 20px;
+    font-family:Impact;
+    display: flex;
+    justify-content: center;
+}
+#ttpd {
+    position: absolute;
+	width: 40%;
+	margin: auto;
+    overflow: hidden;
+    top: 995px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+#ttpd ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+    animation: changeTtpd 10s infinite alternate-reverse;
+    /* infinite alternate linear */
+}
+
+#ttpd li {
+	width: 100%;
+    list-style: none;
+    top:50px
+}
+#ttpd img {
+	width: 50%;
+}
+img.geriasa{
+    margin-left: 10%;
+
+}
+img.aspadir{
+    margin-left: -35%;
+}
+img.apama{
+
+    margin-left: -10px;
+}
+
+img.apna{
+    margin-left: -600px;
+} 
+img.primar{
+    margin-left:-500px ;
+}
+img.sanitas{
+    margin-left: -395px;
+}
+img.casas{
+    margin-left: -500px;
+ }
+
+@keyframes changeTtpd {
+	0% {margin-left: 0;}
+	5% {margin-left: 0;}
+	
+	10% {margin-left: -100%;}
+	15% {margin-left: -100%;}
+	
+	20% {margin-left: -200%;}
+	25% {margin-left: -200%;}	 
+}
+
+/* TÉCNICO SUPERIOR EN INTEGRACIÓN SOCIAL */
+h2#tis-title{
+    font-size: 20px;
+    font-family:Impact;
+    display: flex;
+    justify-content: center;
+}
+#tis {
+    position: absolute;
+	width: 40%;
+	margin: auto;
+    overflow: hidden;
+    top: -1100px;
+    margin-left: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+#tis ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+    animation: changeTtpd 10s infinite alternate-reverse;
+    /* infinite alternate linear */
+}
+#tis li {
+	width: 100%;
+    list-style: none;
+    top:50px
+}
+#tis img {
+	width: 50%;
+}
+/* TÉCNICO SUPERIOR EN EDUCACIÓN INFANTIL */
+h2#ei-title{
+    font-size: 20px;
+    font-family:Impact;
+    display: flex;
+    justify-content: center;
+}
+#ei {
+    position: absolute;
+	width: 40%;
+	margin: auto;
+    overflow: hidden;
+    top: 900px;
+    margin-left: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+#ei ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+    animation: changeTtpd 10s infinite alternate-reverse;
+    /* infinite alternate linear */
+}
+#ei li {
+	width: 100%;
+    list-style: none;
+    top:50px
+}
+#ei img {
+	width: 50%;
+}

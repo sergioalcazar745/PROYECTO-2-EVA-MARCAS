@@ -1,0 +1,42 @@
+h1#title{
+    position: absolute;
+    top: 400px;
+    margin-left: 300px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color:royalblue;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: gray 10px 10px;
+}
+#present{
+    position: absolute;
+    background-color: royalblue;
+    top: 450px;
+    height: 30%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    align-items: center;
+    margin-left: 20%;
+    border-radius: 10%;
+    background: lavender;
+    box-shadow: gray;
+}
+div#present div.film{
+    margin-left: 20px;
+    display: block;
+}
+#information{
+    position: absolute;
+    margin-left: 290px;
+    top: 670px;
+    width: 60%;
+    white-space: pre-wrap;    
+}
+
+

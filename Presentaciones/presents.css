@@ -1,0 +1,105 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    height: 206px;
+    overflow:hidden;
+    border-style:dashed ;
+}
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none inside;
+}
+ul.slider {
+    position:relative; /*Necesitamos que el ul sea relativo*/
+}
+ul.slider li {
+    opacity: 0; /*Ocultamos todos los <li>*/
+    transition: opacity .5s;
+    position: absolute; /*Posicionamos en absoluto los <li>*/
+    left: 0px;
+    top: 0px;
+    margin:50px;
+    padding:50px;
+    border:2px solid red;
+    background:#fff;
+}
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+ul, li {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+ul.slider {
+    padding: 30px;
+}
+
+ul.slider li {
+    width: 400px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: gray;
+    opacity: 0; 
+    transition: opacity .5s;
+    padding-top: 30vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+  /*   font-size: calc( 1.5rem + 1vw ); */
+  font-size: 100em;
+    text-align: center;
+}
+
+#slide1 {
+    background-color: #00324b;
+    color: #fff;
+   
+}
+
+#slide2 {
+    background-color: #65bce8;
+    color: #00324b;
+}
+
+#slide3 {
+    background-color: #f90;
+    color: #00324b;
+}
+
+#slide4 {
+    background-color: #00324b;
+    color: #65bce8;
+}
+
+#slide5 {
+    background-color: #65bce8;
+    color: #00324b;
+}
+
+div{
+    position: absolute;
+    top: 214px;
+    display: flex;
+    justify-content: flex-start;
+    border-style:dashed ;
+    width: 400px;
+
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+.menu li{
+    margin-left: 100%;
+}

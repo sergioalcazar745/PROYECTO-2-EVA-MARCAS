@@ -1,0 +1,176 @@
+h1#title{
+    position: absolute;
+    top: 400px;
+    margin-left: 300px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color:royalblue;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: gray 10px 10px;
+}
+input#solicitud{
+    position: absolute;
+    background-color: royalblue;
+    border-color: royalblue;
+    color: white;
+    font-weight: bolder;
+    top: 500px;
+    right:  0;
+    margin-right: 200px;
+    width: 170px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start; 
+    text-transform: uppercase; 
+}
+input#solicitud:hover{
+    background-color: gray;
+    border-color:gray;
+    animation-duration: 50s;
+}
+
+p#text{
+    position: absolute;
+    top: 550px;
+    width: 50%;
+    right: 0;
+    margin-right: 15%;
+    white-space: pre-line;
+}
+#photo{
+    position: absolute;
+    top: 600px;
+    left: 0;
+    margin-left: 90px;
+}
+#modul{
+    position: absolute;
+    top: 900px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+#link{
+    position: absolute;
+    top: 1300px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#p, a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+a:hover{
+    text-decoration: none;
+    color:cadetblue;
+}
+
+/* Atencion a personas en situacion de dependencia */
+p#text2{
+    position: absolute;
+    top: 550px;
+    width: 50%;
+    right: 0;
+    margin-right: 15%;
+    white-space: pre-wrap;
+}
+ul#lista2{
+    position: absolute;
+    top: 690px;
+    right: 0;
+    margin-right: 80px;
+ 
+}
+
+#photo2{
+    position: absolute;
+    top: 600px;
+    left: 0;
+    margin-left: 180px;
+}
+#modul2{
+    position: absolute;
+    top: 1150px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+p#text3{
+    position: absolute;
+    top: 910px;
+    width: 90%;
+    right: 0;
+    margin-left: 5%;
+    white-space: pre-wrap;
+}
+div#link2{
+    position: absolute;
+    top: 1700px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9em;
+}
+/* Auxiliar de enfermeria */
+#photo3{
+    position: absolute;
+    top: 520px;
+    left: 0;
+    margin-left: 180px;
+}
+p#text4{
+    position: absolute;
+    top: 540px;
+    width: 50%;
+    right: 0;
+    margin-right: 9%;
+    white-space: pre-wrap;
+}
+p#text5{
+    position: absolute;
+    top: 780px;
+    width: 90%;
+    right: 0;
+    margin-left: 5%;
+    white-space:pre-line;
+}
+div#modul3{
+    position: absolute;
+    top: 960px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+div#link3{
+    position: absolute;
+    top: 1210px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9em;
+}
+/* DESARROLLO DE APLICACIONES MULTIPLATAFORMA */
+p#text6{
+    position: absolute;
+    top: 550px;
+    width: 50%;
+    right: 0;
+    margin-left: 200%;
+    white-space: pre-line;
+}

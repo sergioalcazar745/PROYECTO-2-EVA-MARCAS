@@ -42,8 +42,8 @@
             <li><a href="#">GRADO SUPERIOR ⇓</a>
                 <ul id="submenu1">
                     <li><a href="dam.html">DESARROLLO DE APLICACIONES MULTIPLATAFORMA</a></li>
-                    <li><a href="#">INTEGRACIÓN SOCIAL</a></li>
-                    <li><a href="#">EDUCACION INFANTIL</a></li>
+                    <li><a href="social.html">INTEGRACIÓN SOCIAL</a></li>
+                    <li><a href="educacion.html">EDUCACION INFANTIL</a></li>
                 </ul>
             </li>
             <li><a href="becas.html">BECAS 2019/2020</a></li>
@@ -74,13 +74,53 @@ Listado de módulos que tiene este ciclo formativo (“asignaturas”):
     <div id="modul">
         <img src="img/galeria/SMR.jpg" alt="">
     </div>
+   
  
-    <div id="link">
+<!--     <div id="link">
             <p id="p">Pincha en los enlaces para ampliar la informacion:</p>
             <a href="https://www.boe.es/boe/dias/2008/01/17/pdfs/A03445-03470.pdf">REAL DECRETO 1691/2007, de 14 de Diciembre</a>
             <a href="https://www.boe.es/boe/dias/2009/08/10/pdfs/BOE-A-2009-13252.pdf">Currículo: ORDEN EDU/2187/2009, de 3 de Julio</a>
+    </div> -->
+    <div id="buttons">
+        <p id="p">Pincha en los enlaces para ampliar la informacion:</p>
+        <button id="myButton">REAL DECRETO 1691/2007, de 14 de Diciembre</button>
+        <button id="myButton2">Currículo: Decreto 94/2008 de 17 de Julio</button>
     </div>
-   
+    <div id="teachme" class="modal">
+
+        <div class="content">
+          <div class="header">
+            <span class="close">&times;</span>
+            <h2>REAL DECRETO</h2>
+          </div>
+          <div class="body">
+            <embed class="pdf" src="documents/BOE-A-2009-13252.pdf">
+          </div>
+          <div class="footer">
+            <h3 id="ces">CES FUENCARRAL</h3>
+          </div>
+        </div>
+      
+      </div>
+
+    <div id="teachme2" class="modal">
+
+        <div class="content">
+          <div class="header">
+            <span class="close2">&times;</span>
+            <h2>Orden educacion</h2>
+          </div>
+          <div class="body">
+            <embed class="pdf" src="documents/A03445-03470.pdf">
+          </div>
+          <div class="footer">
+            <h3 id="ces">CES FUENCARRAL</h3>
+          </div>
+        </div>
+      
+    </div>
+
+      <script src="js/modal.js"></script>
 </body>
 <footer id="pie">
     Desarrollado por Sergio y Álvaro &copy; CES FUENCARRAL<br>

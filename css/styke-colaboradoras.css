@@ -21,250 +21,111 @@ p#present{
     width: 80%;
     margin-left: 10%;
 }
-
-/* Cajas de presentacion */
-#films{
-    margin-left: 10%;
-    display: flex;
+img.photo{
+    width: 100px;
 }
-/* Presentacion de empresas colaboradoras para smr */
-h2#smr-title{
-    font-size: 20px;
-    font-family:Impact;
+/* SISTEMAS MICROINFORMÁTICOS Y REDES */
+h2#title2{
+    position: absolute;
+    top: 800px;
+    color:royalblue;
+    margin-left: 300px;
+    width: 60%;
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
 }
-#smr {
+
+div#smr{
     position: absolute;
-	width: 40%;
-	margin: auto;
-    overflow: hidden;
-    top: 800px;
+    display: flex;
+    flex-direction: row;
+    top: 910px;
 }
-
-#smr ul {
-	display: flex;
-	padding: 0;
-	width: 400%;
-    animation: changeDam 10s infinite alternate-reverse;
+div#smr div{
+    margin-left: 20px;
 }
-
-#smr li {
-	width: 100%;
-	list-style: none;
-}
-
-#smr img {
-	width: 100%;
-}
-@keyframes changeSmr {
-	0% {margin-left: 0;}
-	20% {margin-left: 0;}
-
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-}
-
-/* Presentacion de empresas colaboradoras para dam */
-h2#dam-title{
-    font-size: 20px;
-    font-family:Impact;
+/*ATENCIÓN A PERSONAS EN SITUACIÓN DE DEPENDENCIA  */
+h2#title3{
+    position: absolute;
+    top: 1090px;
+    color:royalblue;
+    margin-left: 300px;
+    width: 60%;
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
 }
-#dam {
+div#apsd{
     position: absolute;
-	width: 40%;
-	margin: auto;
-    overflow: hidden;
-    top: 800px;
-    margin-left: 45%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    top: 1190px;
 }
-
-#dam ul {
-	display: flex;
-	padding: 0;
-	width: 400%;
-    animation: changeDam 10s infinite alternate-reverse;
-    /* infinite alternate linear */
+div#apsd div{
+    margin-left: 20px;
 }
-
-#dam li {
-	width: 100%;
-    list-style: none;
-    top:50px
+/* TÉCNICO SUPERIOR EN EDUCACIÓN INFANTIL */
+h2#title4{
+    position: absolute;
+    top: 1300px;
+    color:royalblue;
+    margin-left: 300px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
 }
-
-#dam img {
-	width: 40%;
+div#educacion{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 1390px;
 }
-img.atos{
-    margin-left: 10%;
-
+div#educacion div{
+    margin-left: 20px;
 }
-img.fidelis{
-    margin-left: -45%;
+/* TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES MULTIPLATAFORMA */
+h2#title5{
+    position: absolute;
+    top: 1490px;
+    color:royalblue;
+    margin-left: 300px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
 }
-img.factorLibre{
-   margin-left: -60%;
+div#dam{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 1590px;
 }
- img.nova{
-
-    margin-left: -550px;
-}
-
-img.full{
-    margin-left: -600px;
-} 
-
-@keyframes changeDam {
-	0% {margin-left: 0;}
-	5% {margin-left: 0;}
-	
-	10% {margin-left: -100%;}
-	15% {margin-left: -100%;}
-	
-	20% {margin-left: -200%;}
-	25% {margin-left: -200%;}
-	 
+div#dam div{
+    margin-left: 20px;
 }
 
 /* TÉCNICO EN ATENCIÓN A PERSONAS EN SITUACIÓN DE DEPENDENCIA */
-
-h2#ttpd-title{
-    font-size: 20px;
-    font-family:Impact;
+h2#title6{
+    position: absolute;
+    top: 1700px;
+    color:royalblue;
+    margin-left: 300px;
+    width: 60%;
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
 }
-#ttpd {
+div#dependencia{
     position: absolute;
-	width: 40%;
-	margin: auto;
-    overflow: hidden;
-    top: 995px;
-    margin-left: 10%;
     display: flex;
-    flex-direction: column;
-}
-
-#ttpd ul {
-	display: flex;
-	padding: 0;
-	width: 400%;
-    animation: changeTtpd 10s infinite alternate-reverse;
-    /* infinite alternate linear */
-}
-
-#ttpd li {
-	width: 100%;
-    list-style: none;
-    top:50px
-}
-#ttpd img {
-	width: 50%;
-}
-img.geriasa{
-    margin-left: 10%;
-
-}
-img.aspadir{
-    margin-left: -35%;
-}
-img.apama{
-
-    margin-left: -10px;
-}
-
-img.apna{
-    margin-left: -600px;
-} 
-img.primar{
-    margin-left:-500px ;
-}
-img.sanitas{
-    margin-left: -395px;
-}
-img.casas{
-    margin-left: -500px;
- }
-
-@keyframes changeTtpd {
-	0% {margin-left: 0;}
-	5% {margin-left: 0;}
-	
-	10% {margin-left: -100%;}
-	15% {margin-left: -100%;}
-	
-	20% {margin-left: -200%;}
-	25% {margin-left: -200%;}	 
-}
-
-/* TÉCNICO SUPERIOR EN INTEGRACIÓN SOCIAL */
-h2#tis-title{
-    font-size: 20px;
-    font-family:Impact;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
+    top: 1800px;
 }
-#tis {
-    position: absolute;
-	width: 40%;
-	margin: auto;
-    overflow: hidden;
-    top: -1100px;
-    margin-left: 55%;
-    display: flex;
-    flex-direction: column;
-}
-
-#tis ul {
-	display: flex;
-	padding: 0;
-	width: 400%;
-    animation: changeTtpd 10s infinite alternate-reverse;
-    /* infinite alternate linear */
-}
-#tis li {
-	width: 100%;
-    list-style: none;
-    top:50px
-}
-#tis img {
-	width: 50%;
-}
-/* TÉCNICO SUPERIOR EN EDUCACIÓN INFANTIL */
-h2#ei-title{
-    font-size: 20px;
-    font-family:Impact;
-    display: flex;
-    justify-content: center;
-}
-#ei {
-    position: absolute;
-	width: 40%;
-	margin: auto;
-    overflow: hidden;
-    top: 900px;
-    margin-left: 55%;
-    display: flex;
-    flex-direction: column;
-}
-
-#ei ul {
-	display: flex;
-	padding: 0;
-	width: 400%;
-    animation: changeTtpd 10s infinite alternate-reverse;
-    /* infinite alternate linear */
-}
-#ei li {
-	width: 100%;
-    list-style: none;
-    top:50px
-}
-#ei img {
-	width: 50%;
+div#dependencia div{
+    margin-left: 20px;
 }
